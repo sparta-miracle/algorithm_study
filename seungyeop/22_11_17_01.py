@@ -1,3 +1,6 @@
+# 양꼬치
+
 def solution(n, k):
-    Free_drink = n // 10 
-    return (n * 12000) + (k * 2000) - (Free_drink * 2000)
+    k -= n // 10
+    answer = n * 12000 + k * 2000
+    return answer
