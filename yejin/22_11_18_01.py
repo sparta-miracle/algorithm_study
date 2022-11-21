@@ -1,3 +1,4 @@
+# 모음 제거
 def solution(my_string):
     # str(my_string)
     # for i in my_string:
