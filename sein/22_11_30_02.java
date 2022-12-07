@@ -1,0 +1,13 @@
+//문자열 my_str과 n이 매개변수로 주어질 때, my_str을 길이 n씩 잘라서 저장한 배열을 return하도록 solution 함수를 완성해주세요.
+
+class Solution {
+    public String[] solution(String my_str, int n) {
+       
+        int len = (int)Math.ceil((double)my_str.length()/n);
+        String[] result = new String[len];
+        
+        result = my_str.split("(?<=\\G.{" + n + "})");
+       
+        return result;
+    }
+}
