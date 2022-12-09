@@ -8,7 +8,6 @@ class Solution {
         int overCoupon = 0;
         int serviceChicken = 0;
         
-        //문제의 핵심은 치킨을 총 몇마리 주문할 수있느냐!
         while(coupon>9){
             serviceChicken += coupon/10;                //서비스 치킨 108개, 10개, 1개, 1개
             overCoupon = coupon%10;                     //남은쿠폰 1개, 9개, 9개, 0개     
