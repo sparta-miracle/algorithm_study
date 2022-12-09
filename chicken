@@ -1,0 +1,14 @@
+class Solution {
+    public int solution(int chicken) {
+        int answer = 0;
+        int coupon = 0;
+        int total = 0;
+        while(chicken >= 10){
+            coupon = chicken / 10; 
+            answer += coupon;
+            total = chicken % 10;
+            chicken = coupon + total;
+        }
+       return answer;
+    }
+}
