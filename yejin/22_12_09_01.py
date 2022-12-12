@@ -21,3 +21,5 @@ def solution(chicken):
 #         chicken+= rest
         
 #     return a
+
+# 실패 더 고민해보자
