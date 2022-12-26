@@ -7,8 +7,8 @@
 def solution(x):
     answer = False
     i,a = x,0
-    i = list(map(int, str(len(i))))
-    for b in range(i):
+    i = list(map(int, str(i)))
+    for b in range(len(i)):
         a += i[b]
     if x%a ==0:
         answer = True
