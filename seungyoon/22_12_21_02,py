@@ -1,0 +1,10 @@
+def solution(s):
+    try:
+        for i in s:
+            int(i)
+        if len(s) == 6 or len(s) == 4:
+            return True
+        else:
+            return False
+    except:
+        return False
