@@ -23,3 +23,21 @@ class Solution {
         return answer;
     }
 }
+
+/*
+승호님의 좋은 코드를 참고하고자 퍼옴!!!
+
+class Solution {
+    public int solution(int n) {
+        int answer = 0;
+        
+        for(int i=1; i<=n; i++){
+            answer++;
+                 while(answer%3==0 || (answer%10)==3 || (answer/10)%10==3){     //3의 배수일때, 1의자리가 3일때, 10의 자리가 3일때 
+                    answer+=1;    
+            }
+        }
+        return answer;
+    }
+}
+*/
