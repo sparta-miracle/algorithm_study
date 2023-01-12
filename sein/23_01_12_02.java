@@ -13,9 +13,9 @@ class Solution {
         for(int i=1; i<=m; i++){
             if(n%i==0 && m%i==0){
                 answer[0] = i;          //최대공약수 
-                answer[1] = (n*m)/answer[0];  //최소공배수
             }
         }
+        answer[1] = (n*m)/answer[0];  //최소공배수
         return answer;
     }
 }
