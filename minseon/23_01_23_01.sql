@@ -1,0 +1,4 @@
+# 조건에 맞는 도서 리스트 출력하기
+
+SELECT MAX(PRICE) AS MAX_PRICE
+FROM PRODUCT
