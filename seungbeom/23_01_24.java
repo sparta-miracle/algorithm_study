@@ -41,7 +41,7 @@ class Solution {
                 hallOfFame.add(max);
             }
 
-            answer[i] = hallOfFame.peek(hallOfFame.size() - 1);
+            answer[i] = hallOfFame.peek();
         }
 
         return answer;
