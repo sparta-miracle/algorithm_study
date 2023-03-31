@@ -33,5 +33,5 @@ public class BinaryTransform {
         transformCount++;
         binaryTransformer(Integer.toBinaryString(temp));
     }
-    
+
 }
